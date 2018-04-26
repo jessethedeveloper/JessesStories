@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Jesse's Stories</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			html, body {
+				margin: 0;
+			}
+
+			body {
+				background-color: #555555;
+			}
+
+			#header {
+				background-image: url("headerImage.jpg");
+				padding: 5px 5px 5px 5px;
+			}
+
+			#sidenav {
+				height: 100%;
+				width: 0;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: #111;
+				overflow-x: hidden;
+				transition: 0.5s;
+				padding-top: 60px;
+			}
+
+			#sidenav a {
+				padding: 8px 8px 8px 32px;
+				text-decoration: none;
+				font-size: 25px;
+				font-family: Arial;
+				color: #818181;
+				display: block;
+				transition: 0.3s;
+			}
+
+			#sidenav a:hover {
+				color: #F1F1F1;
+			}
+
+			#sidenav .closebtn {
+				position: absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px;
+				margin-left: 50px;
+			}
+
+			#story_one {
+				background-color: #000000;
+				border: 5px solid #333333;
+				border-radius: 5px;
+				padding: 10px 10px 10px 10px;
+				margin-top: 5%;
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+
+			#story_one:hover {
+				box-shadow: 5px 10px 18px blue;
+			}
+
+			#story_one_title {
+				border-bottom: 2px solid #FFFFFF;
+			}
+		</style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<script>
+			function openNav() {
+				document.getElementById("sidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("sidenav").style.width = "0";
+			}
+		</script>
+		<div id="header">
+			<span style="color: #F1F1F1; font-size: 30px; font-family: Arial; cursor: pointer;" onClick="openNav()">&#9776; JESSE'S STORIES</span><!--<h1 style="color: #FFFFFF; font-family: Arial">JESSE'S STORIES</h1>-->
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">Photo by pixelstalk.net</p>
+		</div>
+		<div id="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+			<a href="index.html"><i class="fa fa-home"></i> Home</a>
+			<a href="stories.html"><i class="fa fa-file-word-o"></i> Stories</a>
+			<a href="donate.html">$ Donate</a>
+			<a href="contact.html"><i class="fa fa-address-card"></i> Contact</a>
+		</div>
+		<div id="story_one">
+			<div id="story_one_title">
+				<center><h2 style="color: #FFFFFF; font-family: Arial;">It Took My Brother</h2></center>
+				<center><a href="It Took My Brother.docx" download>Download</a></center>
+			</div>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">When I was nine years old, my brother and I used to play a lot together. But ever since that THING took him, I have felt lonely.</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">My brother's name was Michael. I am now seventeen years old and writing this as of April 9th, 2018. One day, my brother and</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">I were playing hide and seek in the woods that surrounded our house. At the beginning of the game, his mission was to find</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">me; he found me pretty easily. But when round two started, I was supposed to find him. As I counted to ten, there was a</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">never-ending chill going down my spine. Once I finally got to ten, I went out to find him.</p>
+			<br>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">After ten minutes of not finding him, I started to get worried. I went searching for him for another ten minutes, but ended up</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">empty-handed. As I went to exit the woods, I heard leaves and branches crackle behind me. I turned around in a fast motion</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">to see who or what it was. I yelled out his name. Nothing. I yelled one more time. Still nothing. I was getting worried</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">at this point.</p>
+			<br>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">"This isn't a game anymore! Come out now!" I yelled.</p>
+			<br>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">I turned back around. There it is; more crackling. I turned back around and looked around. To my right, I could see</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">a dark figure with red eyes and a gray colored mouth that was grinning. I screamed and ran back to the house as fast</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">as possible. I told my mom what happened and she ended up calling the police. They found nothing. No sign of my</p>
+			<p style="color: #FFFFFF; font-family: Arial; font-size: 16px;">brother or that dark figure. Nothing at all.</p>
+		</div>
+	</body>
+</html>
